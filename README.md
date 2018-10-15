@@ -54,7 +54,7 @@ Add new spec (it) in the existing file.
 
 #### Report generation
 
-Provides intuitive test report after the completion of test by creating test results in the json format file `trayio-demo-result.json` and generates a report based on [Mochawesome-report][report] and [generator][marge].
+Provides intuitive test report after the completion of test by creating test results in the json format file `hudl-automation-result.json` and generates a report based on [Mochawesome-report][report] and [generator][marge].
 
 [credential]: https://github.com/nirmalbaral/trayio-demo/blob/master/test/pageobjects/page.js#L15
 [report]: https://github.com/adamgruber/mochawesome
