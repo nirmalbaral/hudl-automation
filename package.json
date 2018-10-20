@@ -1,22 +1,22 @@
 {
-  "name": "trayio-e2e-test-automation",
+  "name": "hudl-e2e-test-automation",
   "version": "1.0.0",
-  "description": "E2E UI Test automation suite for tray.io",
+  "description": "E2E UI Test automation suite for hudl",
   "main": "index.js",
   "scripts": {
     "test": "wdio wdio.conf.js",
-    "posttest": "node_modules/.bin/marge trayio-demo-result.json --autoOpen --timestamp"
+    "posttest": "node_modules/.bin/marge hudl-automation-result.json --autoOpen --timestamp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nirmalbaral/trayio-demo.git"
+    "url": "git+https://github.com/nirmalbaral/hudl-automation.git"
   },
   "author": "nirmal baral",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nirmalbaral/trayio-demo/issues"
+    "url": "https://github.com/nirmalbaral/hudl-automation/issues"
   },
-  "homepage": "https://github.com/nirmalbaral/trayio-demo#readme",
+  "homepage": "https://github.com/nirmalbaral/hudl-automation#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "chromedriver": "^2.42.0",
